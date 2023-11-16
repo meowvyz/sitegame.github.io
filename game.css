@@ -1,0 +1,207 @@
+body{
+    background-color: rgba(82, 82, 82, 0.664);
+    overflow-x: hidden;
+}
+.zagolovok{
+    font-size: 6vw;
+    color: rgb(66, 60, 62);
+    margin-top: 12%;
+    margin-left: 40%;
+  
+}
+.zagolovok1{
+    
+    font-size: 2VW;
+    color: rgb(0, 0, 0);
+    margin-left: 46%;
+   margin-top: -16%;
+   font-family: Abril Fatface;
+   
+}
+.zagolovok3{
+  text-align: center;
+    font-size: 2vw;
+    margin-top: -62%;
+    margin-left: 7%;
+
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.podzagolovok{
+   font-size: 0.7vw;
+   color: rgb(79, 79, 80);
+   font-family: Silkscreen Regular;
+   margin-left: 25%;
+  
+
+}
+a{
+    color: rgb(156, 156, 156);
+    font-size: 1.8vw;
+    text-decoration: none;
+    font-family: monserrat bold;
+    display: inline;
+}
+.menu1{
+    
+    margin-top: -4%;
+   margin-left: 40%;
+}
+
+.consol{
+    margin-top: 30%;
+}
+.line{
+    margin-top: -8%;
+    margin-left: -6%;
+}
+.banner{
+    margin-top: 25%;
+    font-size: 3.5vw;
+    color: rgb(105, 6, 6);
+    font-family: Silkscreen Regular;
+    margin-left: 17%;
+    animation: pulse 1s infinite;
+}
+@keyframes pulse{
+  0%{ transform: scale(1); }
+  50%{ transform: scale(1.1); }
+  100%{ transform: scale(1); }
+}
+.banner1{
+  font-size: 1.5vw;
+    margin-top: -5%;
+    color: rgb(0, 0, 0);
+    margin-left: 30%;
+}
+
+.info1{
+font-size: 0.5vw;
+margin-left: 71%;
+margin-top: -2%;
+font-family: Abril Fatface;
+}
+.popcorn1{
+ margin-top: -21%;
+ margin-left: 55%;
+}
+.popcorn2{
+margin-top: -43%;
+margin-left: 3%;
+}
+.info{
+  font-size: 0.5vw;
+  margin-left: 20%;
+  margin-top: 20%;
+  font-family: Abril Fatface;
+}
+.polosa{
+  margin-top: 24%;
+}
+.tabs {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 40%;
+    margin-top:-35%;
+    justify-content: center;
+    
+  }
+  .tabs li {
+    padding: 4%;
+    border: 1px solid rgb(48, 43, 43);
+    background-color: #686262;
+    margin-top: 15%;
+    margin-left: 10%;
+    font-size: 3vw;
+   
+  }
+  .tabs li:hover {
+    background-color: rgb(138, 132, 132);
+    cursor: pointer;
+    
+    
+  }
+  .tabs a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 3vw;
+  }
+  .content {
+ 
+    padding: 12%;
+    display: none;
+   
+  }
+  .content:target {
+    display: block;
+    
+   
+  }
+  .defaultContent {
+    display: block;
+    margin-left: 30%;
+    
+  }
+  .reit{
+    margin-top: -100%;
+    margin-LEFT: -40%;
+  }
+  .vers{
+    margin-top: -95%;
+    margin-left: 1%;
+  }
+  .liders{
+    margin-top: -96%;
+    margin-left: 3%;
+  }
+  .profil{
+    margin-top: -95%;
+    margin-left: 2%;
+  }
+  .line2{
+    margin-top: -10%;
+  }
+  .maproad{
+    font-family: Silkscreen Regular;
+    color: #423f3f;
+    font-size: 4vw;
+  margin-top: -28%;
+  margin-left: 28%;
+  }
+  .maproad1{
+    font-family: Silkscreen Regular;
+    color: #646464;
+    font-size: 3.9vw;
+  margin-top: -15.5%;
+  margin-left: 28.5%;
+  }
+.maproadimg{
+  margin-top: -7%;
+  margin-left:26%;
+}
+.polossa{
+margin-left: -29%;
+}
+.social-media{
+ margin-left: 37%;
+ margin-top: 4%;
+  justify-content: center;
+}
+.social-media a{
+  margin: 0 10px;
+}
+.social-media img{
+  transition: 0.3s;
+ 
+
+}
+.social-media a:hover img{
+  transform: scale(1.2);
+}
+.SOC{
+  font-size: 2vw;
+  margin-top: -17%;
+  margin-left: 37%;
+}
